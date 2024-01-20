@@ -39,12 +39,12 @@ class TextEditor extends Component {
   render() {
     const {textToBold, textToItalic, textToUnderline} = this.state
 
-    const color = textToBold === false ? '#f1f5f9' : '#faff00'
+    const color = textToBold === false ? '#f1f5f9' : ' #faff00'
 
-    const italicButtonColor = textToItalic === false ? '#f1f5f9' : '#faff00'
+    const italicButtonColor = textToItalic === false ? '#f1f5f9' : ' #faff00'
 
     const underlineButtonColor =
-      textToUnderline === false ? '#f1f5f9' : '#faff00'
+      textToUnderline === false ? '#f1f5f9' : ' #faff00'
 
     const fontWeight = textToBold === false ? 'normal' : 'bold'
 
